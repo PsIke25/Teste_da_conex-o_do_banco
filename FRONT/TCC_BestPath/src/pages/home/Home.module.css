@@ -1,0 +1,115 @@
+.banner {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 15px 15px 15px 15px;
+    margin: 11px;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: 2px solid #000056;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.logo {
+    max-width: 90%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.link {
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.link a {
+    color: #000056;
+    text-decoration: none;
+}
+
+.vestibulares {
+    border: 2px solid #000056;
+    border-radius: 15px;
+    background-color: #FFF;
+    display: block;
+    width: fit-content;
+    height: auto;
+    margin: 11px;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+
+    min-width: 300px;
+    flex: 1;
+}
+
+.linksContainer {
+    border-radius: 15px;
+    background-color: #F6CB6C;
+    padding: 10px;
+}
+
+.contatos {
+    min-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email {
+    border: 2px solid #000056;
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 10px 20px 10px 20px;
+    margin: 11px;
+    text-align: center;
+    width: auto;
+}
+
+.contact {
+    color: #F59817;
+    width: auto;
+}
+
+.instagram {
+    border: 2px solid #000056;
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 5px 20px 20px 20px;
+    margin: 11px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.instagram a {
+    color: #F59817;
+    text-decoration: none;
+}
+
+.calendar {
+    border: 2px solid #000056;
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 10px 20px 10px 20px;
+    margin: 11px;
+    text-align: center;
+    min-width: 300px;
+    flex: 2;
+}
+
+.dates {
+    border-radius: 15px;
+    background-color: #F6CB6C;
+    padding: 10px;
+}
